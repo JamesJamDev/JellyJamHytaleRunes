@@ -1,4 +1,5 @@
 {
+  "Icon": "Common/Icons/Abilities/Rune_Levitate",
   "Interactions": [
     "Ability_Levitate_Cast"
   ],

@@ -30,7 +30,7 @@
   "Ability": {
     "Slot": "Primary",
     "Cooldown": 12,
-    "Cost": 30,
+    "Cost": 0,
     "CostType": "Mana",
     "Tags": [
       "mechanic.buff",
