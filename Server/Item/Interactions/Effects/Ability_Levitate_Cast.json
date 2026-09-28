@@ -6,7 +6,8 @@
         {
           "Type": "TriggerCooldown",
           "UseAbilityCooldown": true
-        }
+        },
+        null
       ]
     },
     {
@@ -31,6 +32,14 @@
             }
           },
           "WaitForGround": false
+        }
+      ]
+    },
+    {
+      "Interactions": [
+        {
+          "Type": "ChangeStat",
+          "UseAbilityCost": true
         }
       ]
     }
