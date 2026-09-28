@@ -1,0 +1,38 @@
+{
+  "Type": "Parallel",
+  "Interactions": [
+    {
+      "Interactions": [
+        {
+          "Type": "TriggerCooldown",
+          "UseAbilityCooldown": true
+        }
+      ]
+    },
+    {
+      "Interactions": [
+        {
+          "Type": "ApplyForce",
+          "Direction": {
+            "Y": 1,
+            "X": 0
+          },
+          "AdjustVertical": false,
+          "Force": 6,
+          "Duration": 3,
+          "RunTime": 3,
+          "ChangeVelocityType": "Set",
+          "Settings": {
+            "Adventure": {
+              "AllowSkipOnClick": true
+            },
+            "Creative": {
+              "AllowSkipOnClick": true
+            }
+          },
+          "WaitForGround": false
+        }
+      ]
+    }
+  ]
+}

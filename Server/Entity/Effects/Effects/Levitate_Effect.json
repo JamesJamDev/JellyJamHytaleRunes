@@ -1,0 +1,9 @@
+{
+  "Duration": 3,
+  "Name": "Levitate",
+  "ApplyConditions": [
+    {
+      "Id": "IsPlayer"
+    }
+  ]
+}

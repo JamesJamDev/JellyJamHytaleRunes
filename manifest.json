@@ -1,0 +1,15 @@
+{
+  "Group": "JellyJam",
+  "Name": "JellyJamRunes",
+  "Version": "1.0.0",
+  "Description": "",
+  "Authors": [],
+  "Website": "",
+  "ServerVersion": ">=0.7.0-pre <0.8.0",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
