@@ -1,2 +1,4 @@
 items.Rune_Levitate.name= Levitate
 items.Rune_Levitate.description= A rune that lets you levitate into the air for a few seconds, beware of the fall!\n\nCan be canceled early by using ability again.
+items.Rune_LastStand.name= Last Stand
+items.Rune_LastStand.description= A rune that fully restores all health, stamina and mana! Has a long cooldown though.

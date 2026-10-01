@@ -13,11 +13,10 @@
 	},
 	"Ability": {
   "Slot": "Core",
-  "Cooldown": 12,
-  "Cost": 30,
+  "Cooldown": 9,
+  "Cost": 35,
   "CostType": "Mana",
   "AbilityKeywords": [
-    "Buff",
     "Duration"
   ],
   "Attributes": {

@@ -21,7 +21,6 @@
           "AdjustVertical": false,
           "Force": 6,
           "Duration": 3,
-          "RunTime": 3,
           "ChangeVelocityType": "Set",
           "Settings": {
             "Adventure": {
