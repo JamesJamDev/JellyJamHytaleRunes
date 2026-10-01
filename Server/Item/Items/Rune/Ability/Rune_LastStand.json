@@ -35,7 +35,7 @@
 	},
 	"ItemLevel": 15,
 	"MaxStack": 1,
-	"Quality": "Epic",
+	"Quality": "Legendary",
 	"ItemSoundSetId": "ISS_Items_Gems",
 	"Model": "Items/Runes/Rune_Ability.blockymodel",
 	"Scale": 0.8,
