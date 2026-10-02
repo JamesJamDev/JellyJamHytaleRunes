@@ -1,46 +1,50 @@
 {
-  "Type": "Parallel",
-  "Interactions": [
-    {
-      "Interactions": [
-        {
-          "Type": "TriggerCooldown",
-          "UseAbilityCooldown": true
-        },
-        null
-      ]
-    },
-    {
-      "Interactions": [
-        {
-          "Type": "ApplyForce",
-          "Direction": {
-            "Y": 1,
-            "X": 0
+  "Type": "StatsCondition",
+  "UseAbilityCost": true,
+  "Failed": "Ability_Cast_Fail",
+  "Next": {
+    "Type": "Parallel",
+    "Interactions": [
+      {
+        "Interactions": [
+          { "Type": "TriggerCooldown", "UseAbilityCooldown": true },
+          null
+        ]
+      },
+      {
+        "Type": "Serial",
+        "Interactions": [
+          {
+            "Type": "ApplyForce",
+            "Direction": { "X": 0, "Y": 1, "Z": 0 },
+            "AdjustVertical": false,
+            "Force": 0,
+            "VerticalClamp": [-20, 6],
+            "ChangeVelocityType": "Set",
+            "RunTime": 0.05,
+            "WaitForGround": false
           },
-          "AdjustVertical": false,
-          "Force": 6,
-          "Duration": 3,
-          "ChangeVelocityType": "Set",
-          "Settings": {
-            "Adventure": {
-              "AllowSkipOnClick": true
+          {
+            "Type": "ApplyForce",
+            "Direction": { "X": 0, "Y": 1 },
+            "AdjustVertical": false,
+            "VerticalClamp": [-20, 6],
+            "Force": 6,
+            "Duration": 3,
+            "ChangeVelocityType": "Set",
+            "Settings": {
+              "Adventure": { "AllowSkipOnClick": true },
+              "Creative": { "AllowSkipOnClick": true }
             },
-            "Creative": {
-              "AllowSkipOnClick": true
-            }
-          },
-          "WaitForGround": false
-        }
-      ]
-    },
-    {
-      "Interactions": [
-        {
-          "Type": "ChangeStat",
-          "UseAbilityCost": true
-        }
-      ]
-    }
-  ]
+            "WaitForGround": false
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          { "Type": "ChangeStat", "UseAbilityCost": true }
+        ]
+      }
+    ]
+  }
 }

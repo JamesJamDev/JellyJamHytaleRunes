@@ -42,16 +42,18 @@
 	"Texture": "Items/Runes/Runes_Textures/Rune_Ability_LastStand.png",
 	"PlayerAnimationsId": "Item",
 	"Recipe": {
-    "Input": [
-        {
-            "ItemId": "Ingredient_Rune_Shard",
-            "Quantity": 6
-        },
-        {
-            "ItemId": "Weapon_Deployable_Healing_Totem",
-            "Quantity": 1
-        }
-    ],
+		"Input": [
+			{
+				"ItemId": "Ingredient_Rune_Shard",
+				"Quantity": 6,
+				"Metadata": {}
+			},
+			{
+				"ItemId": "Weapon_Deployable_Healing_Totem",
+				"Quantity": 1,
+				"Metadata": {}
+			}
+		],
 		"PrimaryOutput": {
 			"Metadata": {}
 		},

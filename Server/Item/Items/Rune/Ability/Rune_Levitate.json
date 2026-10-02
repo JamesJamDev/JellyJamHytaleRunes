@@ -12,18 +12,18 @@
 		]
 	},
 	"Ability": {
-  "Slot": "Core",
-  "Cooldown": 9,
-  "Cost": 35,
-  "CostType": "Mana",
-  "AbilityKeywords": [
-    "Duration"
-  ],
-  "Attributes": {
-    "Duration": 3
-  },
-  "Cast": "Root_Ability_Levitate"
-},
+		"Slot": "Core",
+		"Cooldown": 9,
+		"Cost": 35,
+		"CostType": "Mana",
+		"AbilityKeywords": [
+			"Duration"
+		],
+		"Attributes": {
+			"Duration": 3
+		},
+		"Cast": "Root_Ability_Levitate"
+	},
 	"Icon": "Icons/ItemsGenerated/Rune_Levitate.png",
 	"Categories": [
 		"Items.Ingredients"
