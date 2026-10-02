@@ -13,14 +13,12 @@
 	},
 	"Ability": {
 		"Slot": "Core",
-		"Cooldown": 9,
+		"Cooldown": 10,
 		"Cost": 35,
 		"CostType": "Mana",
-		"AbilityKeywords": [
-			"Duration"
-		],
+		"AbilityKeywords": ["Duration"],
 		"Attributes": {
-			"Duration": 3
+			"Duration": 5
 		},
 		"Cast": "Root_Ability_Levitate"
 	},

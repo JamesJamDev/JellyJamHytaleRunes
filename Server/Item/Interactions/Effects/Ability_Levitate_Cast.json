@@ -16,28 +16,18 @@
         "Interactions": [
           {
             "Type": "ApplyForce",
-            "Direction": { "X": 0, "Y": 1, "Z": 0 },
-            "AdjustVertical": false,
-            "Force": 0,
-            "VerticalClamp": [-20, 6],
-            "ChangeVelocityType": "Set",
-            "RunTime": 0.05,
-            "WaitForGround": false
-          },
-          {
-            "Type": "ApplyForce",
             "Direction": { "X": 0, "Y": 1 },
             "AdjustVertical": false,
-            "VerticalClamp": [-20, 6],
             "Force": 6,
-            "Duration": 3,
+            "Duration": 5,
+            "DurationAttribute": "Duration",
             "ChangeVelocityType": "Set",
             "Settings": {
               "Adventure": { "AllowSkipOnClick": true },
               "Creative": { "AllowSkipOnClick": true }
             },
             "WaitForGround": false
-          }
+        }
         ]
       },
       {
