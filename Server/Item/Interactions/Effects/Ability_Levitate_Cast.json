@@ -7,7 +7,10 @@
     "Interactions": [
       {
         "Interactions": [
-          { "Type": "TriggerCooldown", "UseAbilityCooldown": true },
+          {
+            "Type": "TriggerCooldown",
+            "UseAbilityCooldown": true
+          },
           null
         ]
       },
@@ -16,24 +19,39 @@
         "Interactions": [
           {
             "Type": "ApplyForce",
-            "Direction": { "X": 0, "Y": 1 },
+            "Direction": {
+              "X": 0,
+              "Y": 1
+            },
             "AdjustVertical": false,
             "Force": 6,
             "Duration": 5,
             "DurationAttribute": "Duration",
             "ChangeVelocityType": "Set",
             "Settings": {
-              "Adventure": { "AllowSkipOnClick": true },
-              "Creative": { "AllowSkipOnClick": true }
+              "Adventure": {
+                "AllowSkipOnClick": true
+              },
+              "Creative": {
+                "AllowSkipOnClick": true
+              }
             },
             "WaitForGround": false
-        }
+          }
         ]
       },
       {
         "Interactions": [
-          { "Type": "ChangeStat", "UseAbilityCost": true }
-        ]
+          {
+            "Type": "ChangeStat",
+            "UseAbilityCost": true
+          }
+        ],
+        "Rules": {
+          "BlockedBy": [
+            "Primary"
+          ]
+        }
       }
     ]
   }

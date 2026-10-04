@@ -1,0 +1,15 @@
+{
+  "StatusEffectIcon": "Icons/ItemsGenerated/Rune_Levitate.png",
+  "OverlapBehavior": "Overwrite",
+  "Infinite": true,
+  "ModelChange": "PlayerTiny",
+  "RawStatModifiers": {
+    "Health": [
+      {
+        "Target": "Max",
+        "CalculationType": "Multiplicative",
+        "Amount": 0.5
+      }
+    ]
+  }
+}
